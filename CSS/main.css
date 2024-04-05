@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heroHeader{
+    background-image: url(../Assets/Images/homePageHeader.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.heroHeader2{
+    background-image: url(../Assets/Images/headerbackBack.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.headerFlex{
+    display: flex;
+    height: 550px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 2em;
+}
+
+.headerFlex2{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.head1{
+    color: red;
+    font-size: 40px;
+}
+
+.head2{
+    color: white;
+    font-size: 50px;
+}
+
+.topNav{
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 32px;
+    border-left: 20px;
+    padding-left: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.topNav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNavRight{
+    padding-left: 40%;
+    padding-top: 15px;
+}
+
+.topNav a:hover{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    opacity: 0.6;
+}
+
+.topNav a.active {
+    color: red;
+    padding-top: 17px;
+}
+
+.topNavSearch{
+    float: right;
+    margin: 15px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: #6E009F;
+}
+  
+.image {
+    flex: 1;
+    text-align: center;
+}
+  
+.image img {
+    max-width: 100%;
+    height: 600px;
+}
+
+.content {
+    flex: 1;
+    padding: 0 10px;
+}
+  
+.heading {
+    font-size: 20px;
+    color: lightblue;
+}
+  
+.subHeading {
+    font-size: 46px;
+    color: white;
+}
+
+.subHeading2 {
+    font-size: 46px;
+    color: black;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.paragraph2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.bookNowButton {
+    padding: 20px 70px;
+    font-size: 18px;
+    background-color: #F2BC00;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #330589;
+}
+
+.bookNowButton a{
+    text-decoration: none;
+}
+
+.flexSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: white;
+}
+
+.imageContainer {
+    flex: 1;
+    text-align: center;
+}
+  
+.imageContainer img {
+    max-width: 100%;
+    height: 400px;
+    margin-left: 120%;
+}
+
+.content2 {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.imageSection {
+    height: 700px;
+    background-color: #6E009F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.content3 {
+    text-align: center;
+}
+  
+.heading {
+    font-size: 24px; 
+    margin-bottom: 5px;
+}
+  
+.subHeading {
+    font-size: 32px; 
+    margin-bottom: 20px;
+}
+
+.subHeading2 {
+    font-size: 32px; 
+    margin-bottom: 20px;
+}
+
+.imageContainer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image2 {
+    margin: 0 10px;
+    text-align: center;
+}
+  
+.image2 img {
+    width: 280px;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.imageHeading {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+  
+.imageDescription {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer {
+    height: 300px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+  
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logoSection {
+    flex: 1;
+}
+  
+.logoSection img {
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+  
+.companyParagraph {
+    font-size: 16px;
+}
+  
+.linkSection {
+    flex: 1;
+}
+  
+.linkHeading {
+    font-size: 18px;
+}
+  
+.links {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.links li {
+    margin-bottom: 5px;
+}
+  
+.links a {
+    text-decoration: none;
+    color: #333;
+}
+  
+.socialMediaSection {
+    flex: 1;
+}
+  
+.socialMediaHeading {
+    font-size: 18px;
+}
+  
+.socialMediaIcons {
+    display: flex;
+    align-items: center;
+}
+  
+.socialMediaIcons img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+  
+.footerBottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.rightsReserved {
+    font-size: 14px;
+}
+  
+.legalLinks a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 10px;
+}
+
+.productSection {
+    height: 700px;
+}
+  
+.productInfo {
+    display: flex;
+}
+  
+.imageContainer3 {
+    width: 40%;
+    position: relative;
+}
+  
+.imageContainer3 img {
+    height: 600px;
+    width: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+  
+.textInfo {
+    width: 60%;
+    padding: 20px;
+}
+  
+.productName {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+  
+.price {
+    margin-bottom: 10px;
+}
+  
+.discountedPrice {
+    font-size: 28px;
+}
+  
+.originalPrice {
+    font-size: 28px;
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+  
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.stars {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #F2BC00;
+}
+  
+.reviewCount {
+    color: rgb(184, 183, 183);
+}
+  
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.buttons2 {
+    margin-bottom: 20px;
+}
+  
+.quantityButton{
+    padding: 20px;
+    font-size: 16px;
+    background-color: #6E009F;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.additionalInfo {
+    margin-top: 20px;
+}
+  
+.additionalInfo p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+  
+.productSection2 {
+    height: 700px;
+    background-color: #6E009F;
+}
+  
+.productName2 {
+    color: #f0f0f0;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.discountedPrice2 {
+    color: #f0f0f0;
+    font-size: 28px;
+}
+
+.description2 {
+    color: #f0f0f0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.quantityButton2{
+    padding: 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.additionalInfo2 {
+    margin-top: 20px;
+}
+  
+.additionalInfo2 p {
+    color: #f0f0f0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contactContainer1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactText{
+    width: 600px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.contactImage1{
+    width: auto;
+    height: 600px;
+}
+
+.contactSocialMedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactSocialText{
+    width: 550px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.contactForm{
+    float: right;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    display: block;
+    padding: 0;
+}
+
+#contactFormContainer h1,p{
+    color: #f0f0f0;
+}
+
+.contactText2{
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    border-style: none;
+    resize: none;
+    border: none;
+}
+
+fieldset {
+    border: medium none !important;
+    min-width: 100%;
+    margin: 0 0 10;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.contactTextBox{
+    height: 100px;
+    width: 400px;
+    border-radius: 10px;
+    max-width: 100%;
+    resize: none;
+    border: none;
+}
+
+.contactFormButton{
+    background-color: #F2BC00;
+    width: 120px;
+    height: 55px;
+    color: #333;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-style: none;
+}
+
+.contactFormButton a{
+    text-decoration: none;
+    color: #333;
+}
+
+#contactFormContainer{
+    background-image: url(../Assets/Images/formBack.png);
+    background-size: cover;
+    background-position: left;
+    padding: 1em 7em 2em 3em;
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    margin: 0;
+    border-radius: 14px;
+    width: fit-content;
+}
+
+.flexItem5{
+    flex: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flexItem5 img{
+    padding: 10px 60px 10px 10px;
+    float: right;
+}
