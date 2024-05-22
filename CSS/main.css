@@ -6,13 +6,18 @@ body{
 .heroHeader{
     background-image: url(../Assets/Images/homePageHeader.png);
     background-size: cover;
-    height: 700px;
+    height: 765px;
+    margin-top: -35px;
+    position: relative;
+    background-position: top;
+    padding-top: 50px;
 }
 
 .heroHeader2{
     background-image: url(../Assets/Images/headerbackBack.png);
     background-size: cover;
     height: 400px;
+    padding-top: 15px;
 }
 
 .headerFlex{
@@ -20,7 +25,8 @@ body{
     height: 550px;
     justify-content: flex-start;
     align-items: flex-end;
-    padding: 2em;
+    padding-top: 5em;
+    padding-left: 2em;
 }
 
 .headerFlex2{
@@ -49,6 +55,9 @@ body{
     padding-left: 25px;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 2em;
+    position: relative;
+    z-index: 1000;
 }
 
 .topNav a{
@@ -88,6 +97,8 @@ body{
     justify-content: center;
     height: 700px;
     background-color: #6E009F;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
   
 .image {
@@ -155,6 +166,8 @@ button:hover {
     justify-content: center;
     height: 600px;
     background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .imageContainer {
@@ -180,6 +193,8 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px ;
 }
   
 .content3 {
@@ -231,9 +246,11 @@ button:hover {
 }
 
 .footer {
-    height: 300px;
+    height: 250px;
     background-color: #f0f0f0;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
 }
   
 .footerContent {
@@ -253,6 +270,7 @@ button:hover {
   
 .companyParagraph {
     font-size: 16px;
+    color: #333;
 }
   
 .linkSection {
@@ -305,6 +323,7 @@ button:hover {
   
 .rightsReserved {
     font-size: 14px;
+    color: #333;
 }
   
 .legalLinks a {
@@ -315,6 +334,8 @@ button:hover {
 
 .productSection {
     height: 700px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
   
 .productInfo {
@@ -381,7 +402,8 @@ button:hover {
 }
   
 .buttons2 {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+
 }
   
 .quantityButton{
@@ -396,7 +418,7 @@ button:hover {
 }
 
 .additionalInfo {
-    margin-top: 20px;
+    margin-top: 0px;
 }
   
 .additionalInfo p {
@@ -408,6 +430,8 @@ button:hover {
 .productSection2 {
     height: 700px;
     background-color: #6E009F;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
   
 .productName2 {
@@ -439,7 +463,7 @@ button:hover {
 }
 
 .additionalInfo2 {
-    margin-top: 20px;
+    margin-top: 0px;
 }
   
 .additionalInfo2 p {
@@ -454,7 +478,7 @@ button:hover {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .contactText{
@@ -466,6 +490,7 @@ button:hover {
 .contactImage1{
     width: auto;
     height: 600px;
+    margin-left: 100px;
 }
 
 .contactSocialMedia{
@@ -482,22 +507,37 @@ button:hover {
     margin-right: 50px;
 }
 
-.contactForm{
+.googleMap{
+    margin-top: 5em;
+    margin-right: 3em;
+}
+
+form{
     float: right;
     width: 95%;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     text-align: left;
     display: block;
     padding: 0;
+    background-image: url(../Assets/Images/formBack.png);
+    background-size: cover;
+    background-position: left;
+    padding: 2em 4em 2em 4em;
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 40px;
+    margin-left: 3em;
+    width: fit-content;
 }
 
-#contactFormContainer h1,p{
+form h1,p{
     color: #f0f0f0;
 }
 
 .contactText2{
-    width: 400px;
+    width: 450px;
     height: 45px;
     border-radius: 15px;
     border-style: none;
@@ -516,7 +556,7 @@ fieldset {
 
 .contactTextBox{
     height: 100px;
-    width: 400px;
+    width: 450px;
     border-radius: 10px;
     max-width: 100%;
     resize: none;
@@ -537,19 +577,6 @@ fieldset {
 .contactFormButton a{
     text-decoration: none;
     color: #333;
-}
-
-#contactFormContainer{
-    background-image: url(../Assets/Images/formBack.png);
-    background-size: cover;
-    background-position: left;
-    padding: 1em 7em 2em 3em;
-    width: 100%;
-    max-width: 100%;
-    height: fit-content;
-    margin: 0;
-    border-radius: 14px;
-    width: fit-content;
 }
 
 .flexItem5{
