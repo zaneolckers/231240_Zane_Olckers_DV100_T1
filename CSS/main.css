@@ -89,6 +89,13 @@ body{
 .topNavSearch{
     float: right;
     margin: 15px;
+    border: none !important;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.bi.bi-cart {
+    float: right;
 }
 
 .section {
@@ -589,3 +596,67 @@ fieldset {
     padding: 10px 60px 10px 10px;
     float: right;
 }
+
+.searchBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchbar {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.planets {
+    font-size: 1.2em;
+    padding: 10px;
+    border-bottom: 1px solid;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.planets:last-child {
+    border-bottom: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.filter-bar {
+    background-color: #4a0072;
+    color: white;
+    padding: 10px;
+  }
+  .filter-bar .icon {
+    margin-right: 5px;
+  }
+  .filter-bar .show-select {
+    width: 50px;
+  }
+  .filter-bar .form-control {
+    background-color: #7c4dff;
+    color: white;
+    border: none;
+  }
+  .filter-bar .form-control:focus {
+    box-shadow: none;
+  }

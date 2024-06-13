@@ -11,6 +11,7 @@
     <title>Red Planet Ventures</title>
 
     <link rel="stylesheet" href="../CSS/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
     <style>
         .head2{
@@ -28,10 +29,23 @@
                 <div class="topNavLeft"><a href="index.html"><img src="../Assets/Images/logo.png" width="300px"></a></div>
                 <div class="topNavRight">
                     <a href="../Index.html">Home</a>
+                    <a href="../Pages/about.html">About Us</a>
                     <a href="flights.html">Flights</a>
                     <a class="active"  href="contact.html">Contact</a>
+
+                    <div class="topNavSearch">
+                      <fieldset>
+                        <input class="navText" type="text" tabindex="1" placeholder="Search...">
+                      </fieldset>
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+
                 </div>
-                <div class="topNavSearch"><input type="text" placeholder="Search.."></div>
+                <div>
+                  <a href="../Pages/viewcart.html"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/></a>
+                  </svg>
+                 </div>
             </div>
             <div class="headerFlex2">
               <h1 class="head2">CONTACT US</h1>
@@ -67,32 +81,29 @@
           </div>
           </div>
 
-       
-
-          <div class="flexitem5">
-            <div class="contactForm">
-              <form name="contactFormContainer" id="contactForm">
-                <h1>SEND US A MESSAGE</h1>
-                <p>Your Name</p>
-                <fieldset>
-                  <input class="contactText2" placeholder="Abc" type="text" tabindex="1" name="yourName" required>
-                </fieldset>
-                <p>Email Address</p>
-                <fieldset>
-                  <input class="contactText2" placeholder="Abc@def.com" type="text" tabindex="2" name="emailAddress" required>
-                </fieldset>
-                <p>Subject</p>
-                <fieldset>
-                  <input class="contactText2" placeholder="This is an optional" type="text" name="subject" tabindex="3">
-                </fieldset>
-                <p>Message</p>
-                <fieldset>
-                  <input class="contactTextBox" placeholder="Hi! I'd like to ask about" type="text" tabindex="4" name="message" required>
-                </fieldset>
-                <button type="submit" class="contactFormButton">Submit</button>
-              </form>
-            </div>
+          <div class="contactForm">
+            <form name="contactFormContainer" id="contactForm">
+              <h1>SEND US A MESSAGE</h1>
+              <p>Your Name</p>
+              <fieldset>
+                <input class="contactText2" placeholder="Abc" type="text" tabindex="1" name="yourName" id="yourName">
+              </fieldset>
+              <p>Email Address</p>
+              <fieldset>
+                <input class="contactText2" placeholder="Abc@def.com" type="text" tabindex="2" name="emailAddress" id="emailAddress">
+              </fieldset>
+              <p>Subject</p>
+              <fieldset>
+                <input class="contactText2" placeholder="This is an optional" type="text" name="subject" tabindex="3" id="subject">
+              </fieldset>
+              <p>Message</p>
+              <fieldset>
+                <input class="contactTextBox" placeholder="Hi! I'd like to ask about" type="text" tabindex="4" name="message" id="message">
+              </fieldset>
+              <button type="submit" class="contactFormButton" onclick="submitForm(event)">Submit</button>
+            </form>
           </div>
+        </div>
       </section>
 
       <footer class="footer">
@@ -105,6 +116,7 @@
             <h4 class="linkHeading">Company</h4>
             <ul class="links">
               <li><a href="../Index.html">Home</a></li>
+              <li><a href="../Pages/about.html">About Us</a></li>
               <li><a href="flights.html">Flights</a></li>
               <li><a href="contact.html">Contact us</a></li>
             </ul>
@@ -130,5 +142,11 @@
           </div>
         </div>
       </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../JS/scripts.js"></script>
 </body>
 </html>
