@@ -28,7 +28,7 @@ function searchBar() {
   }
 }
 
-// filter bar
+// filter bar // Most proud
 document.addEventListener('DOMContentLoaded', function() {
   const showSelect = document.getElementById('show-select');
   const sortSelect = document.getElementById('sort-select');
